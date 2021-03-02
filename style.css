@@ -1,0 +1,52 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.top{
+	position: fixed;
+	top: 0;
+	background-color:midnightblue;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+}
+
+.container-menu{
+	width: 80%;
+	line-height: 100px;
+	margin: auto;
+	background-color: orange;
+}
+
+nav{
+	display: inline-block;
+}
+
+.logo{
+	display: inline-block;
+	height: 50px;
+	width: 100px;
+	margin-right: 50px;
+	background-color: red;
+	vertical-align: middle;
+}
+
+ul li{
+	display: inline;
+	padding-right: 10px;
+}
+ul li a{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+}
+
+ul li a:hover{
+	color: red;
+}
+
+main{
+	padding-top: 110px;
+}
